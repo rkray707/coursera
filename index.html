@@ -9,6 +9,8 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
         <link rel="stylesheet" href="css/styles.css">
     <title>Ristorante Con Fusion</title>
 </head>
@@ -34,12 +36,20 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row-header">
-                <div class="col-12 col-sm-6">
+                <div class="row">
+                <div class="col-md-6 col-sm-12">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-md-3 col-sm-12">
+                    <img src="img/logo.png">
                 </div>
+                <div class="col-md-3 col-sm-12 mt-5">
+                   
+                    <button class="btn btn-warning btn-lg "><a href="#forume">reserve table</a></button>
+                </div>
+            </div>
+                
             </div>
         </div>
     </header>
@@ -50,8 +60,14 @@
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                    src="img/uthappizza.png" alt="uthapizza">
+                    <div class="media-body">
+                        <h2 mt-0>Uthappizza <span class="badge badge-danger">HoT</span> <span class="badge badge-pill badge-secondary">%4.99</span></h2>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -61,23 +77,91 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                <h2>Weekend Grand Buffet<span class="badge badge-danger">NEW</span></h2>
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
             </div>
+            <img class="d-flex mr-3 img-thumbnail align-self-center"
+            src="img/buffet.png" alt="uthapizza">
         </div>
-
         <div class="row-content align-item-center">
-            <div  class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Meet our Culinary Specialists</h3>
-            </div >
-            <div class="col col-sm order-sm-first  col-md">
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                    src="img/alberto.png">
+                    <div class="media-body"> <h2>Alberto Somayya</h2>
+                        <h2 mt-0>Executive Chef</h2>
+                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. 
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+    <a name="forume"></a>
+        <div class="card">
+          <div class="card-header bg-warning">
+            <h4>Reserve a table</h4>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-3 col-sm-12">
+                <h4 >number of Guests</h4>
+              </div>
+              <div class="col-md-9 col-sm-12">
+                <div class="form-check form-check-inline mt-4">
+                  <input class="form-check-input ml-5" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">1</label>
+                </div>
+                <div class="form-check form-check-inline mt-4">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">2</label>
+                </div>
+                <div class="form-check form-check-inline mt-4">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                  <label class="form-check-label" for="inlineRadio3">3</label>
+                </div>
+                <div class="form-check form-check-inline mt-4">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                  <label class="form-check-label" for="inlineRadio4">4</label>
+                </div>
+                <div class="form-check form-check-inline mt-4">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                  <label class="form-check-label" for="inlineRadio5">5</label>
+                </div>
+                <div class="form-check form-check-inline mt-4">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                  <label class="form-check-label" for="inlineRadio2">6</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-12">
+                <h4>Date and time</h4>
+              </div>
+              <div class="col-1"></div>
+                  <div class="col-md-3 col-sm-12  ">
+                    <input type="text" class="form-control" id="inputdate" placeholder="Date">
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-12">
+                    <input type="text" class="form-control" id="inputtime" placeholder="time">
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-3"></div>
+                <div class="col-2"><button type="button" class="btn btn-primary mt-3">Reserve</button></div>
+                <div class="col-7"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+    
     <footer class="footer">
         <div class="row">
             <div class="col-4 offset-1 col-sm-2">             
@@ -96,19 +180,19 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		              <i class="fa fa-phone fa-lg"></i> +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i> +852 8765 4321<br>
+                        <i class="fa fa-envelope-o fa-lg"></i> <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-toutube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
                     </div>
                 </div>
            </div>
@@ -117,7 +201,7 @@
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
            </div>
-        </div>
+        
     </footer>
     
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
